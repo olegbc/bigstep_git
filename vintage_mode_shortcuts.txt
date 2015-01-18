@@ -1,0 +1,52 @@
+h - left
+j - up
+k - down
+l - right
+
+w - start new word
+b - opposit
+
+v - visual mod 
+V - visual LINE mod
+v + move + s - replace marked block
+
+y - copy yank
+p - past
+
+'/' - search for word (then tap enter)
+'?' - do backwords
+
+c or d plus ( or "" - del all from () or ""
+ciw - del word over marker and insert new
+
+f - find next symbol (fr serch for next r)
+F - find backwords
+
+dfc - del from here to next 'c' symbol
+
+d - delete (and copy deleted block)
+dw - del whole word
+dj - del  current line and line under
+d$ - del from current symbol to the end of line
+dd - del line
+x - del like del
+X - like backspace
+c - del + insert
+
+shift+I, shift+A - insert/append start/end of line
+o - make new line under marker
+shift+o - make new line above marker
+
+w - begining of next word
+b - begining of previous word
+e - ending of next word
+
+shift+W - very ending
+shift+B - very begining
+
+$ - line end
+0 - line start
+^ - begin of word combination
+% - start/end stack
+
+G - end of file

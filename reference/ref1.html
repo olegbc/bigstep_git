@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Datepicker - Select a Date Range</title>
+	<link media="all" rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="//js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="//js/main.js"></script> 
+	<script src="//js/jquery-ui-1.8.14.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="//jquery-ui-base.css">
+  <script>
+  $(function() {
+    $( "#from" ).datepicker({
+      defaultDate: "+1w",
+      changeMonth: true,
+      numberOfMonths: 3,
+      onClose: function( selectedDate ) {
+        $( "#to" ).datepicker( "option", "minDate", selectedDate );
+      }
+    });
+    $( "#to" ).datepicker({
+      defaultDate: "+1w",
+      changeMonth: true,
+      numberOfMonths: 3,
+      onClose: function( selectedDate ) {
+        $( "#from" ).datepicker( "option", "maxDate", selectedDate );
+      }
+    });
+  });
+  </script>
+</head>
+<body>
+ 
+<div id="from" ></div>
+<div id="to" ></div>
+ 
+ 
+</body>
+</html>

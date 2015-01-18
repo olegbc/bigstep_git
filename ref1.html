@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Datepicker - Select a Date Range</title>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+	<script src="js/jquery-1.8.3.js"></script>
+	<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="jquery-ui-base.css">
+<script>
+$(function() {
+    var startDate;
+    var endDate;
+    
+    var selectCurrentWeek = function() {
+        window.setTimeout(function () {
+            $('.from').find('.ui-datepicker-current-day a').addClass('ui-state-active')
+        }, 1);
+    }
+    
+    $('#from').datepicker( {
+		firstDay: 1,
+        showOtherMonths: true,
+        selectOtherMonths: true,
+        onSelect: function(dateText, inst) { 
+            var date = $(this).datepicker('getDate');
+            startDate = new Date(date.getFullYear(), date.getMonth(), date.getDate() - date.getDay());
+         //   endDate = new Date(date.getFullYear(), date.getMonth(), date.getDate() - date.getDay() + 6);
+            var dateFormat = inst.settings.dateFormat || $.datepicker._defaults.dateFormat;
+            $('#startDate').text($.datepicker.formatDate( dateFormat, startDate, inst.settings ));
+         //   $('#endDate').text($.datepicker.formatDate( dateFormat, endDate, inst.settings ));
+            
+            selectCurrentWeek();
+        },
+        beforeShowDay: function(date) {
+            var cssClass = '';
+            if(date >= startDate && date <= endDate)
+                cssClass = 'ui-datepicker-current-day';
+            return [true, cssClass];
+        },
+        onChangeMonthYear: function(year, month, inst) {
+            selectCurrentWeek();
+        }
+    });
+    
+    $('.from .ui-datepicker-calendar tr').live('mousemove', function() { $(this).find('td a').addClass('ui-state-hover'); });
+    $('.from .ui-datepicker-calendar tr').live('mouseleave', function() { $(this).find('td a').removeClass('ui-state-hover'); });
+});
+
+  </script>
+</head>
+<body>
+ 
+<label for="from">From</label>
+<input type="text" id="from" name="from">
+<label for="to">to</label>
+<input type="text" id="to" name="to">
+
+<div class="from"></div>
+<div class="to"></div>
+ 
+ 
+</body>
+</html>

@@ -1,0 +1,569 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"num",
+				"num_weeks"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"arr",
+				"arr_all"
+			],
+			[
+				"tea",
+				"teacher_choose"
+			],
+			[
+				"lgtt",
+				"lgtt_match_fn"
+			],
+			[
+				"teacher",
+				"teacher_select"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"mysql_e",
+				"mysql_error"
+			],
+			[
+				"op",
+				"option	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "datepicker.php",
+			"settings":
+			{
+				"buffer_size": 1297,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "amount_of_money.php",
+			"settings":
+			{
+				"buffer_size": 1393,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 60.0,
+		"selected_items":
+		[
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 271.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/BC/Documents/Sublime Projects/bigstep.sublime-project",
+		"/C/apache/test.ru/www/yii2/apps/basic/config/db.php",
+		"/C/apache/test.ru/www/yii2/apps/basic/config/console.php",
+		"/C/apache/test.ru/www/yii2/apps/basic/config/params.php",
+		"/C/apache/test.ru/www/yii2/apps/basic/config/web.php",
+		"/C/apache/test.ru/www/yii2/apps/basic/web/yiiproj/web/index.php.txt",
+		"/C/apache/test.ru/www/yii2/apps/basic/web/yiiproj/assets/AppAssets.php.txt",
+		"/C/apache/test.ru/www/bigstep/amount_of_money_server.php",
+		"/C/apache/test.ru/www/bigstep/attendance_filter2.php",
+		"/C/apache/test.ru/www/bigstep/attendance_filter.php",
+		"/C/apache/test.ru/www/bigstep/style.css",
+		"/C/apache/test.ru/www/bigstep/vintage_mode_shortcuts.txt",
+		"/C/apache/test.ru/www/bigstep/js/attendance.js",
+		"/C/apache/test.ru/www/bigstep/attendance_table1.php",
+		"/C/apache/test.ru/www/bigstep/notes/notes.txt",
+		"/C/apache/test.ru/www/bigstep/js/main.js",
+		"/C/apache/test.ru/www/bigstep/Number_of_students.php",
+		"/C/apache/test.ru/www/bigstep/datepicker.php",
+		"/C/apache/test.ru/www/bigstep/index.php",
+		"/C/apache/test.ru/www/bigstep/take.php",
+		"/C/apache/test.ru/www/yii2/apps/basic/web/yiiproj/yii.txt",
+		"/C/apache/test.ru/www/bigstep/vitia01.php",
+		"/D/Bzuuuu/trevel/Турция.eml",
+		"/C/apache/test.ru/www/bigstep/vitia.php",
+		"/C/apache/test.ru/www/bigstep/db.php",
+		"/C/Users/BC/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/bh_wrapping.sublime-settings",
+		"/C/Users/BC/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/BC/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/BC/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/Example.sublime-keymap",
+		"/C/Users/BC/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/BC/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/BC/AppData/Roaming/Sublime Text 2/Packages/User/bh_core.sublime-settings",
+		"/C/apache/test.ru/www/bigstep/lgtt.php",
+		"/C/apache/test.ru/www/bigstep/del.php",
+		"/C/apache/test.ru/www/bigstep/js/jquery-1.8.3.js",
+		"/C/apache/test.ru/www/bigstep/js/utils.js",
+		"/C/apache/test.ru/www/bigstep/datepicker.html",
+		"/C/apache/test.ru/www/bigstep/jquery-ui-vader.css"
+	],
+	"find":
+	{
+		"height": 53.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n					$('#teacher_take').append(\"<option value=\"+data[i][0]+\">\"+data[i][0]+\"</option>\");",
+			"\n					<option value=\"Крыса Лариса\">Даниил</option>",
+			"	\n		$sql = \"SELECT `fio` FROM `main` WHERE `id`=\".$id;\n		$result = mysql_query($sql)	or die(mysql_error());\n		while ($row = mysql_fetch_row($result)){\n			echo $row[0];\n		}",
+			"принять проплату",
+			"take",
+			"take()",
+			"take(",
+			"take_form",
+			"принять проплат",
+			"take_form",
+			"Создать уровень",
+			"\n				$level = $_POST[\"level\"];",
+			"\n				$_POST[\"id_person\"]) and $_POST[\"id_person\"]!=\"\" and",
+			"w++;",
+			"for",
+			"takedown3(",
+			"takedown3",
+			"Создать",
+			"Создать уровень",
+			"lgtt_match_fn",
+			"partly_payed_lesson",
+			"attendence_mark partly_payed_lesson",
+			"graphField",
+			"value",
+			"graphBar",
+			"height ",
+			"heig ",
+			"heig",
+			"20",
+			"relative",
+			"taketobd",
+			"#fio_take",
+			"none",
+			"display",
+			"display: none",
+			"display: none;",
+			"array",
+			"diag",
+			"amount_of_money_fn",
+			"datepicker_fn",
+			"if(y === data[i]['lessons_num'][3] && data[i]['lessons_num'][4] > 0){\n											console.log('недоплата : '+data[i]['lessons_num'][4])\n											start_point = start_point + 1;\n											$('td[id=td'+t+'_'+start_point+']').addClass('partly_payed_lesson');\n\n										}",
+			"pers",
+			"y",
+			"pay",
+			"\n										$('td[id=td'+y+'_'+start_point+'].person_start_mark').css('color','rgb(255, 20, 255)');",
+			"\"",
+			"(\"",
+			"start_date",
+			"lessons_num",
+			"i",
+			"sum_pay",
+			"sum_discount",
+			"sum_pay",
+			"sum_discount",
+			"sum",
+			"sum_pay",
+			"sum",
+			"payment_has",
+			"lgtt_match_fn",
+			"console",
+			"dates",
+			"e",
+			"\n		$arr_date_sum[0]",
+			"\n		echo json_encode($arr_fio_id_date);",
+			"\n		$arr_sum[$i][0]=",
+			"\n		echo json_encode($arr_fio_id_date);",
+			"absolute",
+			"ndex",
+			"создать уровень",
+			"wrap_payment_form",
+			"payment_add",
+			"\n		$('#lgtt_form').children(\"input[name='level_start_choose']\") = $level_start_choose;",
+			"teacher_choose",
+			"\n			var teacher_choose = \"\";\n			var timetable_choose = \"\";\n			var level_start_choose = \"\";",
+			"\n				$ = $r;",
+			"level_start_choose",
+			"teacher",
+			"\n					<input type='text' name='teacher' value='<?php echo $arr[$n][0]; ?>' />",
+			"\n		$arr_teacher[$n][0]=$row[0];",
+			"\n			$arr_timetable[$arr_teacher[$y]][$r] = $row[0];",
+			"\n	$arr_teacher = array();",
+			"goto",
+			"info_type",
+			"timetable",
+			"json",
+			"\n			var timetable = $('#timetable_select option:selected').val();",
+			"\n			var y = $('#timetable_select option:selected').val();",
+			"lgtt_form",
+			"teacher",
+			"\n	if(isset($_POST['teacher']) and $_POST['teacher']!=''){\n		$sql=\"SELECT `timetable` FROM `levels` WHERE `teacher`='\".$_POST['teacher'].\"'\";\n		// echo $sql;\n		$result = mysql_query($sql) or die(mysql_error());\n		while($row = mysql_fetch_row($result)){\n			$arr[$m]=$row[0];\n			$m++;\n		}\n	} ",
+			"\"",
+			"=\"",
+			"bracket_styles",
+			"timetable_calculate",
+			"DISTINCT",
+			"yank",
+			"mod",
+			"over",
+			"LINE mo",
+			"LINE",
+			"f8",
+			"f7",
+			"f6",
+			"f5",
+			"f4",
+			"lgtt_match_fn",
+			"lgtt_match_fng",
+			"k",
+			"end",
+			"stack",
+			"word",
+			"\nshift+W",
+			"javascript",
+			"white_space",
+			"empty"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "datepicker.php",
+					"settings":
+					{
+						"buffer_size": 1297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "amount_of_money.php",
+					"settings":
+					{
+						"buffer_size": 1393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.406261792723,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.unsaved_changes":
+	{
+		"height": 145.0
+	},
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"lgtt_match",
+				"bigstep/lgtt_match.php"
+			],
+			[
+				"attendance.",
+				"bigstep/js/attendance.js"
+			],
+			[
+				"saveor",
+				"bigstep/saveorder.php"
+			],
+			[
+				"lgtt_match_level_dates",
+				"lgtt_match_level_dates.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"datepick",
+				"datepicker.php"
+			],
+			[
+				".php",
+				"lgtt.php"
+			],
+			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"attendance",
+				"js/attendance.js"
+			],
+			[
+				"att",
+				"attendance_table1.php"
+			],
+			[
+				"note",
+				"notes/notes.txt"
+			],
+			[
+				"atte",
+				"attendance_table1.php"
+			],
+			[
+				"atten",
+				"attendance_table1.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true
+}
